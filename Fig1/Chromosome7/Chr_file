@@ -1,0 +1,22 @@
+GCF_000004195.4_UCB_Xtro_10.0_genomic.fna:36,186,223:   XtChr7
+GCF_027358695.1_aSpeBom1.2.pri_genomic.fna:45,27,83:    SBChr11	SBChr12
+GCF_027358695.1_aSpeBom1.2.pri_genomic.fna:36,142,172:  SBChr11	SBChr12
+GCA_933207985.1_aPelCul1.1_chrom_genomic.fna:79,244,253:        PLChr11	PLChr10
+GCA_933207985.1_aPelCul1.1_chrom_genomic.fna:116,251,250:       PLChr11	PLChr10
+GCF_905171775.1_aRanTem1.1_genomic.fna:127,69,74:       RTChr8	RTChr10
+GCF_905171775.1_aRanTem1.1_genomic.fna:253,237,25:      RTChr8	RTChr10
+GCF_028390025.1_aPseCor3.hap2_genomic.fna:251,164,125:  PCChr3	PCChr10
+GCF_035609145.1_aEleCoq1.hap1_genomic.fna:190,93,103:   ECChr4	ECChr6
+GCF_028390025.1_aPseCor3.hap2_genomic.fna:138,47,80:    PCChr3	PCChr10
+GCF_035609145.1_aEleCoq1.hap1_genomic.fna:231,109,95:   ECChr4	ECChr6
+GCA_019512145.1_UCB_Epus_1.0_genomic.fna:85,129,46:     EPChr11	EPChr6
+GCA_019512145.1_UCB_Epus_1.0_genomic.fna:145,36,21:     EPChr11	EPChr6
+GCF_032444005.1_aRanImi1.pri_genomic.fna:184,144,75:    RIChr2	RIChr10	
+GCF_032444005.1_aRanImi1.pri_genomic.fna:94,8,14:       RIChr2	RIChr10
+GCF_905171765.1_aBufBuf1.1_genomic.fna:78,112,75:       BbChr6	BbChr1
+GCF_905171765.1_aBufBuf1.1_genomic.fna:109,96,247:      BbChr6	BbChr1
+GCF_014858855.1_ASM1485885v1_genomic.fna:177,194,0:     BZChr6	BZChr2
+GCF_027789765.1_aDenEbr1.pat_genomic.fna:96,44,136:     DEChr8	DEChr12
+GCF_014858855.1_ASM1485885v1_genomic.fna:25,203,168:    BZChr6	BZChr2
+GCF_027789765.1_aDenEbr1.pat_genomic.fna:146,226,93:    DEChr8	DEChr12	
+GCF_029499605.1_aHylSar1.hap1_genomic.fna:23,232,246:   HSChr7	HSChr10
