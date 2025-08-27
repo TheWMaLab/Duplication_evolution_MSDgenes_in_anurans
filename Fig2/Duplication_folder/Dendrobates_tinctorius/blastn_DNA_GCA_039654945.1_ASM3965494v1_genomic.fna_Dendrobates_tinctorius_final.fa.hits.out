@@ -1,0 +1,230 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_039654945.1_ASM3965494v1_genomic.fna
+           830 sequences; 6,355,763,190 total letters
+
+
+
+Query= EXON1
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAYMGB010000215.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  390     3e-106
+JAYMGB010000069.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  254     5e-65 
+
+
+
+Query_1  1         ATGCCGAACAACGTAGAGCCACTTAACAAGATGCGAAGCTATGTCTCTATAGGGGGCAAT  60
+205      274979    ............................................................  275038
+58       13895912                                                       .......  13895906
+
+Query_1  61        GGAAAGAAGACATCACGCTTTCCTAAGTGTGCCCGTTGCAGGAATCATGGCTATTCATCC  120
+205      275039    ............................................................  275098
+205      868863                         ..C...........C........C..G..G.CG..-...  868901
+                                                                  \            
+                                                                  |            
+                                                                  C
+58       13895905  ..G.T....................................A........G.........  13895846
+
+Query_1  121       CCGTTGAAAGGTCACAAACGTTTTTGTATGTGGCAGGATTGCCAGTGCAAAAAATGCAGC  180
+205      275099    ............................................................  275158
+205      868902    TGCC....G..A.....G..C......CGC...AGA..C..T......GCC..C...CTG  868961
+58       13895845  .............................T....G...A.....................  13895786
+
+Query_1  181       CTTATTGCAGAAAGACAGCGTGTTATGGCTGCCCAG  216
+205      275159    ....................................  275194
+205      868962    ..GG.G.TG..G..G.....G..G.....G..G...  868997
+58       13895785  ....C................A..............  13895750
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1169455539920
+
+
+Query= EXON2
+
+Length=187
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAYMGB010000069.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  338     1e-90
+JAYMGB010000215.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  297     4e-78
+
+
+
+Query_2  1         GTAGCTTTAAGGAGGCAGCAGGCACAAGAAGAGGAATTGGGAATAAGCCTTCCAATACTT  60
+58       13837041  ............................................................  13836982
+205      300248    ............................................................  300307
+
+Query_2  61        ATACCAAGTGCAGCAGAATTGCTTGTGAAACATGAGGATGTCAGTAATAATTCCTGCCCA  120
+58       13836981  ............................................................  13836922
+205      300308    ............T..........CA...........C.......C........T......  300367
+
+Query_2  121       CCGCTGGAAAATAATTGCCCACAGGTAACAAGTGGATCTGCTGCACAAACATCGACCAGC  180
+58       13836921  ............................................................  13836862
+205      300368    .T...T........................................T.............  300427
+
+Query_2  181       TCTTCAG  187
+58       13836861  .......  13836855
+205      300428    .......  300434
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 985139177650
+
+
+Query= EXON3
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAYMGB010000215.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  513     4e-143
+JAYMGB010000069.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  187     8e-45 
+
+
+
+Query_3  1         AGAACAAGATTCTTGCTCAAGATATCCCTCCAGTTACCAGCAGAGGTCATGTGGACAGCA  60
+205      348392    ............................................................  348451
+58       13787375  ......................................................CT....  13787316
+
+Query_3  61        CTTCTGATTGTGTTGTGGATCCTCCTTACTACAGTAGCTTCTATCAAACTCCACTCTATC  120
+205      348452    ............................................................  348511
+58       13787315  ........C..........................G.............A....G.C...  13787256
+
+Query_3  121       CCTATTACAACAATCTGTACAATTATACACCCTACCAAATGGCTGTGACTGCTGATTCCA  180
+205      348512    ............................................................  348571
+58       13787255  .                                                             13787255
+
+Query_3  181       CAAGTGCTGGTGATTTGGGTGTCATAGGTGGAGCGCCAATAAAAAACACTTTTAGAAGCA  240
+205      348572    ............................................................  348631
+
+Query_3  241       TTCCTACTGCTTATGTCCAGGCTCAATCAGGAAATCAATGGCAG  284
+205      348632    ............................................  348675
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1601645630760
+
+
+Query= EXON4
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAYMGB010000215.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  300     3e-79
+
+
+
+Query_4  1       ATGAAAAGCACTGATAACCGTATTCCAGGACACAACACAGGCTCCCAATACAGGCTGCAC  60
+205      399174  ............................................................  399233
+
+Query_4  61      TCTTACTACCCACCCTACATGGGGCAAACTATGGCTACAACTGCTTGTGTCCAACCCATC  120
+205      399234  ............................................................  399293
+
+Query_4  121     TTTAGTTTTGAGGAAAACCTATCATACCCTGAAGTGAAAGCATGTG  166
+205      399294  ..............................................  399339
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 851668708420
+
+
+Query= Exon5
+
+Length=42
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAYMGB010000215.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  77.0    5e-13
+
+
+
+Query_5  1       GAGCTTTTCAAGGACTGAGAAATCAGATTGTTCAAGAAACAG  42
+205      533617  ..........................................  533658
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82624608560
+
+
+Query= eXON6
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAYMGB010000215.1 Dendrobates tinctorius isolate UK_male_01 ptg00...  280     2e-73
+
+
+
+Query_6  1       TGTTTTCTCCACCGAGCAGCCAAGACTCCGGATTGGTTTCCTTGTCCAGCAGCTCATCAG  60
+205      538769  ............................................................  538828
+
+Query_6  61      TCACCAGTGAGAGCACCAAAGGTGTAGCCGAGTGCGAGGCGTCCACTGAAGCCCCTCCGT  120
+205      538829  ............................................................  538888
+
+Query_6  121     ATCCAGTCGCAGCTATTACTGAAGATGGGGAGTGA  155
+205      538889  ...................................  538923
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 788111445040
+
+
+  Database: GCA_039654945.1_ASM3965494v1_genomic.fna
+    Posted date:  Jul 13, 2024  3:57 PM
+  Number of letters in database: 6,355,763,190
+  Number of sequences in database:  830
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

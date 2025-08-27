@@ -1,0 +1,220 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_016617825.1_ASM1661782v1_genomic.fna
+           148,035 sequences; 1,065,311,793 total letters
+
+
+
+Query= EXON1
+
+Length=246
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JABWIB010007416.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  441     3e-122
+JABWIB010002629.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  129     3e-28 
+JABWIB010001467.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  108     9e-22 
+JABWIB010003410.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  70.7    2e-10 
+JABWIB010052444.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  44.6    0.009 
+JABWIB010005702.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  44.6    0.009 
+JABWIB010006439.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  43.7    0.031 
+JABWIB010017650.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  42.8    0.031 
+
+
+
+Query_1  1      ATGGAAGAGGAGGAGGACGAGGAGAACCAGGAGGGCGATGCTGCCAGCCATCCCAGGAAA  60
+7415     33779  ............................................................  33838
+52443    2044         ...........G......G.GG............                      2011
+5701     30446    ...G...........G......G.GG...............                   30488
+                                                 \                          
+                                                 |                          
+                                                GA
+6438     10956    ..................A...G.GG.....A....                        10991
+17649    278     .......................                                      256
+
+Query_1  61     GAGCAGAACGCTGCGGATAAAGGTGGAGAGCAGAGGAAGCTGAGCAGGACCCCCAAGTGT  120
+7415     33839  ...................................N........................  33898
+2628     45404                                               ...........A...  45418
+1466     80088                                                  ..T..A.....C  80077
+3409     50666                                               ..A..G..T.....C  50680
+
+Query_1  121    GCCAGGTGTAGGAATCATGGGGTGGTGTCCTGTCTAAAGGGGCACAAGCGCTTCTGCCGC  180
+7415     33899  ............................................................  33958
+2628     45419  ...C.C..C..A........A...C.......G..G................A.......  45478
+1466     80076  ...C.C..C........C..C..A..C...GC...C.....C..........A.......  80017
+3409     50681  ..TC.C..CC.C...........T..A..AGCG..T..A..............T..T...  50740
+
+Query_1  181    TGGAGGGACTGTCAGTGTGCCAACTGCCTGCTGGTGGTGGAGAGGCAGAGGGTCATGGCA  240
+7415     33959  ............................................................  34018
+2628     45479  .TC.A......CACC....AG..A...A.C...A.CA.C....................T  45538
+1466     80016  ....A......CAT...C.....G...AC...CA.A.C....C....A...........C  79957
+3409     50741  .....A..T...GCT..C.....A..TAC...CA.T.C....C.T...C.C..T.....T  50800
+
+Query_1  241    GCACAG  246
+7415     34019  ......  34024
+2628     45539  ..C...  45544
+1466     79956  ..G..   79952
+3409     50801  ..G...  50806
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 229148080488
+
+
+Query= EXON2
+
+Length=187
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JABWIB010027962.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  338     2e-91
+JABWIB010002629.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  338     2e-91
+
+
+
+Query_2  1     GTAGCTTTACGGAGACAACAGGCACAAGAAGAAGAAATGGGCATAAGCCACCCAATTCCC  60
+27961    4243  ............................................................  4302
+2628     1446  ............................................................  1505
+
+Query_2  61    CTGCCCAATTCAGCAGATTTGTTAGTGAAAAGGGAGCATGGCAGCAATAACTCCTGCCTA  120
+27961    4303  ............................................................  4362
+2628     1506  ............................................................  1565
+
+Query_2  121   CTGATGGAAAACACTTGTCCTCAAACAACCAGTGCAGCTATGCCAACCTCTACATCCAGC  180
+27961    4363  ............................................................  4422
+2628     1566  ............................................................  1625
+
+Query_2  181   TCTTCAG  187
+27961    4423  .......  4429
+2628     1626  .......  1632
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 167640966924
+
+
+Query= EXON3
+
+Length=269
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JABWIB010002629.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  486     1e-135
+
+
+
+Query_3  1     AGAGCAAGATGCTTTTTCAGGATGTACCTCCTCTTACCACCAGAGGGCATATGGACAGCA  60
+2628     8738  ............................................................  8797
+
+Query_3  61    CATCTGACTATGTTGTAGACTCGGCTTACTACAGCAACTTCTATCAACCATCATTGTATC  120
+2628     8798  ............................................................  8857
+
+Query_3  121   CTTATTATAATAACCTATACAATTACACTCCCTACCCAGTGGCTATGGGTGCTGATCCTG  180
+2628     8858  ............................................................  8917
+
+Query_3  181   CAAGTGGCAGTGACATAGGTGGAATAAAGAACAGTTTTAGGAGCATCTCAGCAGCCTACG  240
+2628     8918  ............................................................  8977
+
+Query_3  241   TCACAGGCCAATCTGGAAACCAGTGGCAG  269
+2628     8978  .............................  9006
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 253548107577
+
+
+Query= EXON4
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JABWIB010002629.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  300     5e-80
+
+
+
+Query_4  1      ATGAAAAGCAGTGATAACCGTATGCCAGGACACAGTTCGAGCTCCCAATACAGAATGCAT  60
+2628     12696  ............................................................  12755
+
+Query_4  61     TCCTACTACCCACCATACCTGGGGCAGAGTGTGACCACCTCTGCTTGTGTCCAACCAGTC  120
+2628     12756  ............................................................  12815
+
+Query_4  121    TTCTCTTATGAGGAGAACCCACCTTACCATGAAGCCAAGGCTAGTG  166
+2628     12816  ..............................................  12861
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 145359572586
+
+
+Query= EXON5
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JABWIB010002629.1 Platyplectrum ornatum isolate SVE-2020 scaffold...  280     4e-74
+
+
+
+Query_5  1      TGTTTTCACCACCAAGCAGCCAAGATTCTGGATTGGTGTCTATGTCCAGCAACTCTCCAA  60
+2628     36448  ............................................................  36507
+
+Query_5  61     TTAGCAGCGAGAGCACCAAGGGTGTGGCGGAGTGTGAAGTCGCAGCCGAAAGTCCTTCCT  120
+2628     36508  ............................................................  36567
+
+Query_5  121    ATATTGTCACCACCATAACTGATGATGGCGAGTGA  155
+2628     36568  ...................................  36602
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133688366028
+
+
+  Database: GCA_016617825.1_ASM1661782v1_genomic.fna
+    Posted date:  Jul 18, 2024  3:21 PM
+  Number of letters in database: 1,065,311,793
+  Number of sequences in database:  148,035
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

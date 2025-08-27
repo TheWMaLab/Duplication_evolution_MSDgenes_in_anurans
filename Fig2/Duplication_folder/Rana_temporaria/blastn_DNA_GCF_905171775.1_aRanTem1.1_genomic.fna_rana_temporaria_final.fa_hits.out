@@ -1,0 +1,196 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_905171775.1_aRanTem1.1_genomic.fna
+           554 sequences; 4,111,422,596 total letters
+
+
+
+Query= exon1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_053489.1 Rana temporaria chromosome 1, aRanTem1.1, whole genom...  401     1e-109
+
+
+
+Query_1  1          ATGCCTAACAGCGAGGAGCCATTAAGCAAGCCTCGCAAACCTGGGGTACAGTCCTCGGGG  60
+0        289522305  ............................................................  289522364
+
+Query_1  61         GCTCAATGGAAGAAATCCCCACGCATGCCAAAATGTTCTCGTTGCAGAAACCACGGCTAT  120
+0        289522365  ............................................................  289522424
+
+Query_1  121        TCGTCGCTACTAAAGGGGCACAAGCGTTTCTGTATGTGGCGGGAATGTCAATGTAAAAAG  180
+0        289522425  ............................................................  289522484
+
+Query_1  181        TGCAGTCTTATTGCGGAGAGACAGCGGGTAATGGCGGCCCAG  222
+0        289522485  ..........................................  289522526
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 785278435602
+
+
+Query= exon2
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_053489.1 Rana temporaria chromosome 1, aRanTem1.1, whole genom...  333     3e-89
+NC_053498.1 Rana temporaria chromosome 10, aRanTem1.1, whole geno...  324     2e-86
+
+
+
+Query_2  1          GTTGCGTTACGCAGACAACAAGCCCAAGAAGAGGAGCTAGGACTAAGCCACCCTATTCCT  60
+0        289542839  ............................................................  289542898
+94       34625822   ..............G.............................................  34625763
+
+Query_2  61         CTACCCAGTGCCAGTGATCTGCTTGTCAAAAGGGAGCAGAGCAGAAATTCCTGCCTTCTG  120
+0        289542899  ............................................................  289542958
+94       34625762   ............................................................  34625703
+
+Query_2  121        CTGGAAAACAATTGCGGCCAGACGACTAGTACCACTGCTGGAGTGACCACACCCACCCTC  180
+0        289542959  ............................................................  289543018
+94       34625702   .......................................................T....  34625643
+
+Query_2  181        TCAG  184
+0        289543019  ....  289543022
+94       34625642   ....  34625639
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 629045029566
+
+
+Query= exon3
+
+Length=275
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_053489.1 Rana temporaria chromosome 1, aRanTem1.1, whole genom...  497     2e-138
+
+
+
+Query_3  1          AGAGCAAAATGCATGTTCAGGATATGCCATCTATCCCCACCAGGGGGCACATGGAGAACA  60
+0        289576654  ............................................................  289576713
+
+Query_3  61         CATCTGACTTTATGGTTGACCCAGCTTATTATGGCAACTTTTACCAACCTTCCCTGTATC  120
+0        289576714  ............................................................  289576773
+
+Query_3  121        CATATTACAACAACCTCTACAATTATTCTTCTTACCAAATGGCCATGAGTGGTGAACCAT  180
+0        289576774  ............................................................  289576833
+
+Query_3  181        CTGGTGCCAGTGACATAGGCGGATCCTCAGTGAAGAATAGTATGAGAAACTTCTCGGCTG  240
+0        289576834  ............................................................  289576893
+
+Query_3  241        CTTATGTTCCAGGACAAGCTGGAAACCAATGGCAG  275
+0        289576894  ...................................  289576928
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 999071382924
+
+
+Query= exon4
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_053489.1 Rana temporaria chromosome 1, aRanTem1.1, whole genom...  300     2e-79
+NC_053493.1 Rana temporaria chromosome 5, aRanTem1.1, whole genom...  44.6    0.022
+NC_053492.1 Rana temporaria chromosome 4, aRanTem1.1, whole genom...  44.6    0.022
+
+
+
+Query_4  1          ATGAAAAGTGCTGACAACCGGTTGGCAGGACACAGTACAAGCTCACAGTACAGAATGCAT  60
+0        289602399  ............................................................  289602458
+
+Query_4  61         TCTTACTATCCTCCATACCTGGGGCAGGGTGTGCCCACTCCTGCCTGTGTTCCACCATTC  120
+0        289602459  ............................................................  289602518
+68       209614433                                                           ...  209614431
+
+Query_4  121        TTTACATTTGAGGAAAACCCAAATTTCTCAGAGGTCAAGTCAAGTG  166
+0        289602519  ..............................................  289602564
+68       209614430  ...........A....T.A.......T....                 209614400
+35       220574583         ..T.........T................            220574555
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 563262542814
+
+
+Query= exon5
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_053489.1 Rana temporaria chromosome 1, aRanTem1.1, whole genom...  288     1e-75
+
+
+
+Query_5  1          GTTTTTTCGCCACCCAGCAGCCAGGATTCTGGATTGGTTTCTTTGTCCAGCAGCTCTCCA  60
+0        289677756  ............................................................  289677815
+
+Query_5  61         ATCAGCAATGAAAGCACCAAAGGTGTAGCAGAGTGTGAAGCTCCCACTGATGCCTCCACC  120
+0        289677816  ............................................................  289677875
+
+Query_5  121        TACACAGTAACAAGCATGGCTGATGACACCAAGATCTGA  159
+0        289677876  .......................................  289677914
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 526259894016
+
+
+  Database: GCF_905171775.1_aRanTem1.1_genomic.fna
+    Posted date:  Dec 12, 2023  10:58 AM
+  Number of letters in database: 4,111,422,596
+  Number of sequences in database:  554
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

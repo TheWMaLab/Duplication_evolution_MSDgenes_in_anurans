@@ -1,0 +1,250 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_933207985.1_aPelCul1.1_chrom_genomic.fna
+           3,574 sequences; 3,094,940,563 total letters
+
+
+
+Query= EXON1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OW240916.1 Pelobates cultripes genome assembly, chromosome: 05        401     7e-110
+OW240925.1 Pelobates cultripes genome assembly, chromosome: 14        49.1    0.002 
+
+
+
+Query_1  1          ATGCCCAACAACGAGGAATCTTTCAGCAAACCCCGCAATTCTGGACTACTCCATGTCAGC  60
+4        134633411  ............................................................  134633352
+
+Query_1  61         GGTAATGGGAGGAAAACTGCAAGGCTGCCTAAATGTGCCCGCTGCAGGAACCATGGCTAT  120
+4        134633351  ............................................................  134633292
+4        134489687                             ..A..G...........................  134489651
+                                                                            \   
+                                                                            |   
+                                                                         GGTC
+4        134369562                             ..C........AA.A..............TGG.  134369528
+                                                                          \     
+                                                                          |     
+                                                                         GG
+4        116042958                     .....ACC..............A...C.C.....C..GGTA  116042918
+13       133179            ...A....G....C....C..GCC.--.....G.....T..GC..........  133127
+                                                              \                 
+                                                              |                 
+                                                             GG
+
+Query_1  121        GCCTCGCCTCTGAAAGGGCATAAGCGCTTCTGTATGTGGAGGGATTGTCAGTGTAAGAAG  180
+4        134633291  ............................................................  134633232
+4        134489650  -...G.---.....G..A..C.......A...CCGC.TT.A...C...ACC...G.....  134489595
+4        134369527  .T..T..--.....G..C..C.....T......CGC........C.........GCC..C  134369470
+4        116042917  .TG......-..........C...........CCGC........C...TCC..CGCC..A  116042858
+                         \                                                      
+                         |                                                      
+                         A
+4        120414667                                ..................GT..........  120414636
+                                                                 \              
+                                                                 |              
+                                                                GC
+13       133126     .A......CT.C....AC..C...AA.......GCC......                    133085
+
+Query_1  181        TGCAGCCTGATTGCCGAGAGACAGAGGGTTATGGCTGCACAG  222
+4        134633231  ..........................................  134633190
+4        134489594  ....T.T....CAT......G........G.....G......  134489553
+4        134369469  ..TCTG...G.G.TG.....G........G.....A......  134369428
+4        116042857  ..T.CG.....A..G.....G...C....G........G...  116042816
+4        120414635  ...                                         120414633
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 591112485879
+
+
+Query= EXON2
+
+Length=193
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OW240916.1 Pelobates cultripes genome assembly, chromosome: 05        349     3e-94
+OW240913.1 Pelobates cultripes genome assembly, chromosome: 02        42.8    0.067
+
+
+
+Query_2  1          GTTGCATTACGGAGACAGCAAGCCCAAGAAGAGGAGATGGGGATTAGCTATCCTATCCCT  60
+4        134625599  ............................................................  134625540
+
+Query_2  61         TTGGCCAGCTCAACAGAAGTGCTTGTGAAGAGAGAACATGGAGGCAGCAGCTCCTGCTTA  120
+4        134625539  ............................................................  134625480
+1        142631512                              .......T......A.............      142631485
+
+Query_2  121        CAAATGGAAAGCAGTTGCACTCAAACCACAAGTTCTGCCACTCAAGTGTCTGTAACCAGT  180
+4        134625479  ............................................................  134625420
+
+Query_2  181        GGTTCAGGTGAGA  193
+4        134625419  .............  134625407
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 501362422578
+
+
+Query= EXON3
+
+Length=278
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OW240916.1 Pelobates cultripes genome assembly, chromosome: 05        502     4e-140
+OW240922.1 Pelobates cultripes genome assembly, chromosome: 11        195     3e-47 
+OW240925.1 Pelobates cultripes genome assembly, chromosome: 14        162     2e-37 
+
+
+
+Query_3  1          AGAGCAGAATGCTGGTTCAGGATATGTCTGTCACCAGCAGAGGGCACATGGAGAGCACAC  60
+4        134596305  ............................................................  134596246
+10       12400878                .....G....C............T......A........CT....C.  12400924
+13       132926                        ....CG.C.....C...T......A........A...G.C.  132886
+
+Query_3  61         CTGACTTGGTTGTGGATTCAGCTTTTTATAGCAATTTCTACCAGCCATCACTGTACCCAT  120
+4        134596245  ............................................................  134596186
+10       12400925   ....AC...C...AAG.A........G...A.---............C...GC.T.....  12400981
+13       132885     ....GA...C..GAAG.A..T.A.......A..G.........C...G...AC.T.....  132823
+                                              \                                 
+                                              |                                 
+                                            CTT
+
+Query_3  121        ACTACAACAACTTATACAATTATTCTCCCTATCAAATGGCTATGGCTGCTGAACCAAGTG  180
+4        134596185  ............................................................  134596126
+10       12400982   ........---...C................C.........C..A......G........  12401038
+13       132822     ........---.C..................C.........C..AA.....G........  132766
+
+Query_3  181        GCAGTGACCTAAGTGGAATAAGTGGACCACCAATGAAAAATGCACTTAGAAGTATTCCAG  240
+4        134596125  ............................................................  134596066
+10       12401039   .....A...A.G.....G...A...G.........                           12401073
+10       12402663                             ......G..GC..GC...T..............C  12402696
+13       132765     .....A...G.G.....G...A...G.........TC.T......                 132721
+13       132139                               ......G..GC..GC...T..............A  132106
+
+Query_3  241        GAGCCTACGTCCCAAGTCAGTCAGGAAACCAGTGGCAG  278
+4        134596065  ......................................  134596028
+10       12402697   ..A..C..............C.................  12402734
+13       132105     ..A..C..A...........C...A.............  132068
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 764422952943
+
+
+Query= EXON4
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OW240916.1 Pelobates cultripes genome assembly, chromosome: 05        300     1e-79
+OW240922.1 Pelobates cultripes genome assembly, chromosome: 11        202     9e-50
+OW240925.1 Pelobates cultripes genome assembly, chromosome: 14        175     1e-41
+
+
+
+Query_4  1          ATGAAGGGAAGTGAGAATCGTTTGCCAGGACACAGCGCAAGCTCTCAGTATAGGATGCAC  60
+4        134574316  ............................................................  134574257
+10       12402813   .....T.T.G....A...A................T.T......A...............  12402872
+13       131989     .....T.T.G....A...A................T.T......A.C......C......  131930
+
+Query_4  61         TCCTACTATCCCTCATACCTGGGACAAAGTGTTGCCACTCCCGCTTGTGTCCCACCACTC  120
+4        134574256  ............................................................  134574197
+10       12402873   .....T........G....CTA......A............T..............T...  12402932
+13       131929     ..G..T........G....CTA...................T..............T...  131870
+
+Query_4  121        TTTACTTATGAAGAAACCCCATCATATCCTGAGGCCAAGGCAAGTG  166
+4        134574196  ..............................................  134574151
+10       12402933   ..C..........C..............A.......GT......    12402976
+13       131869     ..C......A...C..TG.........TA.......GT......    131826
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 417802018815
+
+
+Query= EXON5
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OW240916.1 Pelobates cultripes genome assembly, chromosome: 05        275     5e-72
+OW240925.1 Pelobates cultripes genome assembly, chromosome: 14        168     2e-39
+OW240922.1 Pelobates cultripes genome assembly, chromosome: 11        163     2e-38
+
+
+
+Query_5  1          TGTTTTCTCCTCCCAGCAGCCAAGATTCCGGCTTGGTTTCTCTGTCCAGTAATTCCCCCA  60
+4        134509219  ............................................................  134509160
+13       131823     .....C...........T..A......G......C.........------....T.....  131770
+10       12402979   .....C..............A......GT...............------..C.T.....  12403032
+
+Query_5  61         TTAGCAATGAGAGCACCAAAGGTGTAGCAGAATGTGAGGCGAACACTGAGGCGAACCAGT  120
+4        134509159  ............................................................  134509100
+13       131769     C..A....A.........G.....A....................TA.....A.G.....  131710
+10       12403033   C..A....A.........G.....A.................G..TA.....A.G.....  12403092
+
+Query_5  121        TCACCACCACAGTTATCGAGGATGGCGAGTGA  152
+4        134509099  ................................  134509068
+13       131709     .........G..............A.A.....  131678
+10       12403093   .................A......A.A.....  12403124
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 377569667846
+
+
+  Database: GCA_933207985.1_aPelCul1.1_chrom_genomic.fna
+    Posted date:  Feb 19, 2024  1:17 PM
+  Number of letters in database: 3,094,940,563
+  Number of sequences in database:  3,574
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

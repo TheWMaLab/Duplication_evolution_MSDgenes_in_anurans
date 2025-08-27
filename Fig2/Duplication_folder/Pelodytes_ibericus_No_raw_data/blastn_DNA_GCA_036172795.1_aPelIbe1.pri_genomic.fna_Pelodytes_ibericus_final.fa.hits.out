@@ -1,0 +1,245 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_036172795.1_aPelIbe1.pri_genomic.fna
+           99 sequences; 2,077,659,799 total letters
+
+
+
+Query= EXON1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM069860.1 Pelodytes ibericus isolate aPelIbe1 chromosome 4, whol...  401     5e-110
+CM069866.1 Pelodytes ibericus isolate aPelIbe1 chromosome 10, who...  115     1e-23 
+CM069865.1 Pelodytes ibericus isolate aPelIbe1 chromosome 9, whol...  64.4    2e-08 
+
+
+
+Query_1  1         ATGCCCAGCAGTGAAGAAGCTTTTAACAAACCCCGTACTTCTACAATGCATGCTGCAGGA  60
+3        82773630  ............................................................  82773571
+9        60614275                                                ...C...G.....G  60614262
+
+Query_1  61        CATCATGGGAAAAAATCCCCACGGCTGCCCAAGTGTGCCCGCTGCAGGAACCACGGCTAT  120
+3        82773570  ............................................................  82773511
+3        71179363                             ..A...........A..TC.T..T..T..GGTG  71179395
+3        82583835                             ..A.........A.A..T........T..AGTG  82583803
+9        60614261  G.G..A.ACC.C...G........GC...G......TG....................T.  60614202
+8        16007910                             ..G.....C.................T..GGTG  16007878
+
+Query_1  121       GCCTCGCCATTGAAAGGGCACAAGCGATTCTGTATGTGGAGAGACTGTCAATGCAAGAAG  180
+3        82773510  ............................................................  82773451
+3        71179396  .TT..AG..C.A..............C......CGC.....G......TCC...GCA...  71179455
+3        82583802  .TG.....--....G..T........T......CGT.................TGCC..T  82583743
+                        \                                                      
+                        |                                                      
+                       CT
+9        60614201  .T.......C.......C........TCAG...CG.....AGA....C..G...GCC...  60614142
+8        16007877  .TG..TG.GC....G..C........T.A...CCGC....AG.......TG...GCT...  16007818
+
+Query_1  181       TGCAGCCTGATTGCAGAGAGACAGAGGGTTATGGCCGCACAG  222
+3        82773450  ..........................................  82773409
+3        71179456  ..T.C.T....C..T..AC....AC.A..G.....T......  71179497
+3        82583742  ...CT.T..G.G.T...A..G...C.A........A..G...  82583701
+9        60614141  ........C..CA.GC....GA.......CT...T....G..  60614100
+8        16007817  ..T.CA.....C..G..AC.C.....A..G.....T..G...  16007776
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 396832435430
+
+
+Query= exon2
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM069860.1 Pelodytes ibericus isolate aPelIbe1 chromosome 4, whol...  343     1e-92
+CM069866.1 Pelodytes ibericus isolate aPelIbe1 chromosome 10, who...  70.7    3e-10
+CM069861.1 Pelodytes ibericus isolate aPelIbe1 chromosome 5, whol...  42.8    0.045
+
+
+
+Query_2  1         GTTGCACTACGAAGACAACAGGCCCAAGAAGAAGAGATGGGCATAAGCCATCCAATTCCG  60
+3        82765540  ............................................................  82765481
+9        60614098               ...........G...........GG......C....C..TC..C..C  60614043
+                                        \             \                        
+                                        |             |                        
+                                      CTG        CGAGCT
+
+Query_2  61        TTGCCAGGCAATGCAGAGATTCTTGTGAAGAGGGAACATGGTGACGGCAACTCCTGTTTA  120
+3        82765480  ............................................................  82765421
+9        60614042  A....CA..GTG.T...A..G..G.C..T.G..---...TT....A.......G....C.  60613983
+                                                                      \        
+                                                                      |        
+                                                                    AAC
+
+Query_2  121       CTTATGGAAAGTAACTGCACCCAGACCATAAGTTCAGCCACCCCAGTATCTACAACCAGC  180
+3        82765420  ............................................................  82765361
+9        60613982  G.GGG.A....C.G....G...T.G...C.......T.......GC....C...G.....  60613923
+4        65868529       ........-.A..................G..G..                      65868562
+
+Query_2  181       AGCTCAGGCA  190
+3        82765360  ..........  82765351
+9        60613922  .......     60613916
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 332425092640
+
+
+Query= exon3
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM069860.1 Pelodytes ibericus isolate aPelIbe1 chromosome 4, whol...  513     1e-143
+CM069866.1 Pelodytes ibericus isolate aPelIbe1 chromosome 10, who...  238     2e-60 
+
+
+
+Query_3  1         AAAGCAGAATGCTTGTACAGGATATTCCTTCTATTACCAGCAGAGGGCATCTGGAGAGCA  60
+3        82748558  ............................................................  82748499
+9        60613906           .......C.....C.C..T.A.C...G.......T.....G..........  60613856
+
+Query_3  61        CACCTGACTTGGTTGTGGACTCCACTTATTACAGCAATTTCTACCAGCCATCACTCTACC  120
+3        82748498  ............................................................  82748439
+9        60613855  ....................C....CAT........G.G...........C.G.C.....  60613796
+
+Query_3  121       CATACTACAACAACTTGTACAATTATTCGCCCTATCAAATGGCTATGGCTGCTGAACCAA  180
+3        82748438  ............................................................  82748379
+9        60613795  ......C.....G.A.C.T..GC.GCGT........C......---AC....CA..G.C.  60613739
+
+Query_3  181       CAAGTGGCAGCGACTTAGGTCCAATAAGTGGATCACCAATGAAAAATACTATTAGGAGCA  240
+3        82748378  ............................................................  82748319
+9        60613738  ...........A....G...G....C........GG.......T......C.........  60613679
+
+Query_3  241       TTCCAACTGCCTATGTCCAAAGCCAGTCAGGAAACCAGTGGCAG  284
+3        82748318  ............................................  82748275
+9        60613678  .G........T.C.A.A.C............G.TG...A.....  60613635
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 525647152690
+
+
+Query= exon4
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM069860.1 Pelodytes ibericus isolate aPelIbe1 chromosome 4, whol...  300     9e-80
+CM069862.1 Pelodytes ibericus isolate aPelIbe1 chromosome 6, whol...  131     9e-29
+CM069866.1 Pelodytes ibericus isolate aPelIbe1 chromosome 10, who...  123     1e-26
+
+
+
+Query_4  1         ATGAAGGGCACTGAGAATCGTTTGCCAGGACACAGCGCAAGCTCTCAATACAGGATGCAT  60
+3        82742047  ............................................................  82741988
+5        46212970     ......C.CA.....A.....G...T......TA...................TT..  46212914
+9        60613634  .....T.T......T.CG.TA......A...C....AT...AC...........G...GG  60613575
+
+Query_4  61        TCCTACTACCCGTCATACCTGGGACAAAGTGTCACCACCTCTGCTTGTGTCCCACCCATG  120
+3        82741987  ............................................................  82741928
+5        46212913  .......G.TTC.........T.T........TGT..T.C.......CA..T.......C  46212854
+9        60613574  C..........T......G......C......TG..C..C.......G........A..C  60613512
+                          \                                                    
+                          |                                                    
+                        ACC
+
+Query_4  121       TTTACCTTTGAGGAGAGCCCCTCCTACACAGAGGCAAAGGCAAGTG  166
+3        82741927  ..............................................  82741882
+5        46212853  ..............T.....                            46212834
+9        60613511  .....T..........A...T....G.T...T...CGGT.......  60613466
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 282561328744
+
+
+Query= exon5
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM069860.1 Pelodytes ibericus isolate aPelIbe1 chromosome 4, whol...  276     3e-72
+CM069866.1 Pelodytes ibericus isolate aPelIbe1 chromosome 10, who...  103     4e-20
+CM069862.1 Pelodytes ibericus isolate aPelIbe1 chromosome 6, whol...  79.7    5e-13
+
+
+
+Query_5  1         TGTTTTCTCCTCCCAGCAGCCAGGATTCCGGACTGGTATCCCTGTCCAGCCATTCTCCTA  60
+3        82698177  ............................................................  82698118
+9        60613463    .....C...G............GA..T....C...--------.....AT......C.  60613414
+5        48527279                                                 ........--...  48527269
+
+Query_5  61        TCAGCAATGAGAGCACCAAAGGTGTAACAGAATGTGAGGCCGGCACCGAGGTTGCCCAGT  120
+3        82698117  .................................................C..........  82698058
+9        60613413  C..................GA.A.C..............ATA..........G.......  60613354
+5        48527268  .....G.......A.....GA.....G...-------------...T.....G.......  48527220
+                      \                                                        
+                      |                                                        
+                     CG
+
+Query_5  121       TCACTATCACTACTGTCATCGAGGATGGGGAGTGA  155
+3        82698057  ...................................  82698023
+9        60613353  ..                                   60613352
+5        48527219  .........G..........A...........A..  48527185
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 259707103625
+
+
+  Database: GCA_036172795.1_aPelIbe1.pri_genomic.fna
+    Posted date:  Jul 13, 2024  2:07 AM
+  Number of letters in database: 2,077,659,799
+  Number of sequences in database:  99
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,226 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011038615.1_BGI_Ldum_1.0_genomic.fna
+           520,896 sequences; 2,378,679,715 total letters
+
+
+
+Query= EXON1
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WWET01033608.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  399     2e-109
+WWET01001714.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  399     2e-109
+WWET01089672.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  278     2e-72 
+WWET01000698.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  59.9    8e-07 
+WWET01002064.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  49.1    0.001 
+
+
+
+Query_1  1       ATGCCTAACCATGAAGAACCATTTAACAAGCCTCGCAGTTCTGGGCTAGTCTCCACAAGT  60
+33607    579     ............................................................  520
+1713     29661   ............................................................  29720
+89671    788                     ..................A......A..................  745
+
+Query_1  61      GGTAATGGCAAGAAGAGTCCGAGGTTGCCAAAGTGTGCACGGTGCAGAAACCATGGCTAC  120
+33607    519     ............................................................  460
+1713     29721   ............................................................  29780
+1713     164790                             ..C........CA.................GTG  164822
+1713     110547                             .....-.....C..A........T.....--.G  110576
+89671    744     ....G...T...........A........C...............C............T.  685
+697      33216                              ...........C..C.....G..T..C...GT.  33181
+                                                                          \  
+                                                                          |  
+                                                                        GTG
+2063     247756                                  ......T..C....AG...........T  247729
+
+Query_1  121     TCCTCTCCATTGAAGGGACACAAGCGATTCTGTATGTGGAGGGACTGCCAATGCAAGAAG  180
+33607    459     ............................................................  400
+1713     29781   ............................................................  29840
+1713     164826  ....G..T.---.....C........C......CGC...........T..G..TGCC..C  164882
+                 \                                                           
+                 |                                                           
+                 GTG
+1713     110577  .G.....-..G...............C.A....CGC.TC.A......TACC..TG....A  110638
+                             \                                               
+                             |                                               
+                           CTA
+89671    684     ..A.........CG...........................A.....TG....TGG....  625
+697      33180   ...G...---.C.....C........C.AT..CCGC....A.......ATG...GCT...  33124
+2063     247728  ...A.G..TG..C....C........                                    247703
+
+Query_1  181     TGCAATTTGATTGCAGAGAGACAGCGTGTCATGGCAGCGCAG  222
+33607    399     .........................................   359
+1713     29841   .........................................   29881
+1713     164883  ...CTGC..G.G.TG...C.....A.G...........A...  164924
+1713     110639  ....TCC.T..CATT.....G.....G........T..C...  110680
+89671    624     ..........C......AG...................A...  583
+697      33123   ....CGC.C..A..C...C.C...A.A........C.....   33083
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 451243600349
+
+
+Query= EXON2
+
+Length=187
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WWET01001714.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  338     5e-91
+WWET01010317.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  279     4e-73
+
+
+
+Query_2  1      GTAGCTTTACGGAGGCAGCAGGCCCAAGAAGAAGAACTGGGCATAAGCCATCCAATCCCA  60
+1713     32315  ............................................................  32374
+10316    810    .........T..................................................  869
+
+Query_2  61     CTTCCCAGTGCAGCAGAATTGCTTGTCAAAAGGGAGCATGGCAGCAGCAACTCTTGTCTG  120
+1713     32375  ............................................................  32434
+10316    870    ..C..T.......................................GA......CA.CT..  929
+
+Query_2  121    CTGCAGGAAAACTGTTGTCCTCAGACAACGACTGCAGCTACGGCAACCTCAACAATCAGC  180
+1713     32435  ............................................................  32494
+10316    930    ..............C..............A..........T...................  989
+
+Query_2  181    TCTTCAG  187
+1713     32495  .......  32501
+10316    990    A......  996
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 370999295095
+
+
+Query= EXON3
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WWET01001714.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  513     2e-143
+
+
+
+Query_3  1      AGAGCAAGATGCCTGTTCAGGATTTACCTTCTGTTACCACCAGAGGGCATATGGACAGCA  60
+1713     49251  ............................................................  49310
+
+Query_3  61     CATCTGACTTTGTTGTAGACTCTGCATACTACAGCAACTTCTATCAACCATCATTGTATC  120
+1713     49311  ............................................................  49370
+
+Query_3  121    CTTACTATAATAACCTATACAATTATACTCCCTACCCAATGGCTATGAGTGCTGATCCTG  180
+1713     49371  ............................................................  49430
+
+Query_3  181    CAAGTGGCAGTGACATAGGTGGAATAGCTGGATCACCAATAAAGAACAGTCTTAGAAGCA  240
+1713     49431  ............................................................  49490
+
+Query_3  241    TCTCAACAGCCTACGTCACAAGCCAATCAGGAAACCAGTGGCAG  284
+1713     49491  ............................................  49534
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 597720580567
+
+
+Query= EXON4
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WWET01001714.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  300     1e-79
+WWET01328139.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  44.6    0.012
+
+
+
+Query_4  1      ATGAAAAGCAATGATAACCGTTTGCCAGGACACAGCTCCAGCTCCCAGTACAGGATGCAT  60
+1713     54644  ............................................................  54703
+
+Query_4  61     TCCTATTATCCACCATACCTGGGCCAGAGTGTGGCCACCTCTGCTTGTGTCCAACCAGTC  120
+1713     54704  ............................................................  54763
+328138   168                                     ...C......T................  142
+
+Query_4  121    TTCTCTTTTGAGGATAACCCATCTTATTCTGAAGCCAAGGCCAGTG  166
+1713     54764  ..............................................  54809
+328138   141    ..                                              140
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 321375185560
+
+
+Query= EXON5
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WWET01017745.1 Limnodynastes dumerilii isolate SAMAR66870 scaffol...  280     9e-74
+
+
+
+Query_5  1     TGTTTTCACCACCAAGCAGTCAAGATTCTGGTTTGGTGTCTATATCCAGCAATTCTCCAA  60
+17744    3166  ............................................................  3225
+
+Query_5  61    TCAGCAGTGAGAGCACCAAAGGTGTGGTGGAGTGTGAAGTCCCTACTGAATCGTCTCCCT  120
+17744    3226  ............................................................  3285
+
+Query_5  121   ACACTGTCACCACTATAACAGATGATGGAGAGTGA  155
+17744    3286  ...................................  3320
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 295381604375
+
+
+  Database: GCA_011038615.1_BGI_Ldum_1.0_genomic.fna
+    Posted date:  Feb 27, 2024  11:18 PM
+  Number of letters in database: 2,378,679,715
+  Number of sequences in database:  520,896
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,229 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_027789765.1_aDenEbr1.pat_genomic.fna
+           2,200 sequences; 2,214,937,069 total letters
+
+
+
+Query= EXON1
+
+Length=198
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM051058.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 3...  358     5e-97
+
+
+
+Query_1  1         ATGCCCAACAACGGAGAGGCAGTTAGCAAAGTTCAGAGCTCTGGAAAGAAGACTTCACGT  60
+2        62301708  ............................................................  62301767
+
+Query_1  61        TTGCCAAAGTGTGCCCGTTGCAGGAACCATGGCTATTCCTCTCCTTTGAAGGGTCACAAG  120
+2        62301768  ............................................................  62301827
+2        62405255     ..G...........G...........C..--GG.........C.......C......  62405311
+                                                                \              
+                                                                |              
+                                                               GG
+2        73912423                                               ..A.....-......  73912410
+
+Query_1  121       CGCTTCTGTATGTGGAGAGAATGTCAGTGCAAAAAATGCAGCCTGATTGCTGAGAGACAA  180
+2        62301828  ............................................................  62301887
+2        62405312  ....A...CCGC.TC.AG..C...AC...TG.G.......T......CATA...C.G..G  62405371
+2        73912409  A.G..T...CGC.....G..C....T....C...--....C...T.....A...C.T...  73912350
+                                           \                                   
+                                           |                                   
+                                          GC
+
+Query_1  181       CGTGTTATGGCTGCACAG  198
+2        62301888  ..................  62301905
+2        62405372  ..G..G.....G......  62405389
+2        73912349  A.A...........T..   73912333
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 372098339592
+
+
+Query= EXON2
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM051058.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 3...  316     1e-84
+
+
+
+Query_2  1         GTAGCTTTGAGAAGGCAGCAAGATCAAGAAGAGGAATTGGGACTAAGCCATCCAATTCCT  60
+2        62307508  ............................................................  62307567
+
+Query_2  61        CTGCCAAGTGCAACAGAATTGCTTGTAAAACGTGAGCATGTCAGCAACAACCCCTGCCCA  120
+2        62307568  ............................................................  62307627
+
+Query_2  121       ATGGTGGAAAACAATTACACTCAGGCAACAAGTGTAGCATCGACCAGCTCTTCAG  175
+2        62307628  .......................................................  62307682
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 321156305005
+
+
+Query= EXON3
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM051058.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 3...  513     2e-143
+CM051067.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 1...  489     6e-136
+
+
+
+Query_3  1         AGAACAGGATGCTTGTTCAGGATATACCTTCTGTTAGCAGCAGAGGGCACATGGACAACA  60
+2        62321218  ............................................................  62321277
+12       75694506  ............................................................  75694565
+
+Query_3  61        CTTCTGACTTTCTTGTGGACTCTACGTTTTACAGTAACTTCTACAAACCACCACTTTATC  120
+2        62321278  ............................................................  62321337
+12       75694566  .............................-..............................  75694624
+
+Query_3  121       CCTATTACAACAATCTGTTCAATTACACATCCTACCAAATGGGCATGACTGCTGATCCTA  180
+2        62321338  ............................................................  62321397
+12       75694625  ............................................................  75694684
+
+Query_3  181       CAGGTGCTGGTGAGTTGGGTGCCATTGGCGGAGCACCAATAAAGAACACTTTTAGGAGCA  240
+2        62321398  ............................................................  62321457
+12       75694685  ..............-....................-........................  75694742
+
+Query_3  241       TCCCAGCTGCCTATGTCCAGGCTCAGTCAGGAAATCAGTGGCAG  284
+2        62321458  ............................................  62321501
+12       75694743  ............................................  75694786
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 560361823857
+
+
+Query= EXON4
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM051067.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 1...  295     4e-78
+CM051058.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 3...  295     4e-78
+
+
+
+Query_4  1         ATGAAAAGTAATGATAACCGCCTTCCAGGACACAGCACAGGCTCCCAGTACAGGATGCAC  60
+12       75719214  ............................................................  75719273
+2        62345998  ............................................................  62346057
+
+Query_4  61        CATTACTACCCATGTGTGGGGCAGAGCATAGCCACACCTGCCTGTGTTCAACCCATCTTC  120
+12       75719274  ............................................................  75719333
+2        62346058  ............................................................  62346117
+
+Query_4  121       AGTTTTGAAGAAAACCCCTCTTACCCTGAGGTCAAAGCAAGTG  163
+12       75719334  ...........................................  75719376
+2        62346118  ...........................................  62346160
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 294577852177
+
+
+Query= Exon5
+
+Length=39
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM051058.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 3...  71.6    7e-12
+
+
+
+Query_5  1         GAAATTTTCAAGGGCTGAGAAACCAGGTTCAAGAAACAG  39
+2        62390985  .......................................  62391023
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 26578532028
+
+
+Query= EXON6
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM051058.1 Dendropsophus ebraccatus isolate aDenEbr1 chromosome 3...  280     8e-74
+
+
+
+Query_6  1         TGTTTTCTCCACCAAGCAGCCAGGACTCAGGATTGGTTTCCATGTCCTGCAACTCTTCAA  60
+2        62394379  ............................................................  62394438
+
+Query_6  61        TCAGCAGCGAGAGCACCAAAGGTGGAGCTGAGTGCGAAGCCTCTACTGAAGCCTCTCCAT  120
+2        62394439  ............................................................  62394498
+
+Query_6  121       ACACTGTTACTACTATTACCGATGATGGGGAGTAA  155
+2        62394499  ...................................  62394533
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 276858883625
+
+
+  Database: GCA_027789765.1_aDenEbr1.pat_genomic.fna
+    Posted date:  Feb 16, 2024  2:58 PM
+  Number of letters in database: 2,214,937,069
+  Number of sequences in database:  2,200
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

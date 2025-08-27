@@ -1,0 +1,236 @@
+BLASTN 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_032444005.1_aRanImi1.pri_genomic.fna
+           1,673 sequences; 5,956,630,009 total letters
+
+
+
+Query= exon1
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM064359.1 Ranitomeya imitator isolate aRanImi1 chromosome 1, who...  390     2e-106
+
+
+
+Query_1  1          ATGCCGAACAACGTAGAGCCACTTAACAAGATACGAAGCTATGTTTCTATAGGGGGCAAT  60
+0        439054301  ............................................................  439054360
+
+Query_1  61         GGAAAAAAGACTTCACGCTTTCCTAAGTGTGCCCGTTGCAGGAACCATGGCTATTCATCC  120
+0        439054361  ............................................................  439054420
+0        439751862                       ..C...........C...........C..--GG..G..T  439751898
+0        482385237                       ..C..A.....AA.A...C.A........GGTGGT...A  482385199
+0        439429014                       ..A...........A..T..A.....C..--.G..C..T  439429050
+
+Query_1  121        CCTTTGAAGGGTCACAAGCGTTTCTGTATGTGGAGGGATTGCCAGTGCAAGAAATGTAGC  180
+0        439054421  ............................................................  439054480
+0        439751899  ...C.......C........C..T...CGC.....A..C..T......GCC..T..CCTG  439751960
+                       \                                                        
+                       |                                                        
+                      GC
+0        482385198  G..C.T..A..G........G..T..CCGC........C....T....C.--......C.  482385139
+                                                             \                  
+                                                             |                  
+                                                            TG
+0        439429051  .T.C.C.....C........C.A...CCGC.TC.A...C....T...--.......C.T.  439429112
+                       \                                     \                  
+                       |                                     |                  
+                      GG                                    TA
+
+Query_1  181        CTTATTGCAGAAAGACAGCGTGTTATGGCTGCCCAG  216
+0        439054481  ....................................  439054516
+0        439751961  ..GG.G.TG..G..G.....G..G.....G..G...  439751996
+0        482385138  ...........GC.T..AA.A...........A..   482385104
+0        439429113  ..G..CAT......G.....G..G.....G..A...  439429148
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1096010071032
+
+
+Query= exon2
+
+Length=187
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM064359.1 Ranitomeya imitator isolate aRanImi1 chromosome 1, who...  334     5e-89
+CM064361.1 Ranitomeya imitator isolate aRanImi1 chromosome 3, who...  150     3e-34
+
+
+
+Query_2  1          GTAGCTTTAAGGAGACAGCAGGCACAAGAAGAGGAATTGGGAATAAGCCTTCCAATCCTG  60
+0        439122742  ............................................................  439122801
+2        81358166      ..A..G.....G..T.....T...A....A.............CAAA..A....TCT  81358222
+
+Query_2  61         TTACCAAGTGCAGCAGAATTGCTTGTAAAACATGAGCATGTCAACAACAGTTCCTGCCCA  120
+0        439122802  A...........................................................  439122861
+2        81358223   C...T..........T........A.......G...A......G................  81358288
+                                                                     \          
+                                                                     |          
+                                                                ATTCCT
+
+Query_2  121        CTGCTGGAAAATAACTGTCCACAGGTGACAAGTGGATCTGCTATACTAACATCGACCAGC  180
+0        439122862  ............................................................  439122921
+2        81358289   ...........C..T..C..T....AA.........A..A.AGC.T...T...C......  81358348
+
+Query_2  181        TCTTCAG  187
+0        439122922  .......  439122928
+2        81358349   .T.....  81358355
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 923269353315
+
+
+Query= exon3
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM064359.1 Ranitomeya imitator isolate aRanImi1 chromosome 1, who...  513     4e-143
+
+
+
+Query_3  1          ATAACAAGATGCTTGTTCAGGATATCCCTCCAGTTACCAGCAGAGGGCATGTGGATAGCA  60
+0        439153561  ............................................................  439153620
+
+Query_3  61         CTTCTGATTGTGTTGTGGATCCTCCTTACTACAGTAGCTTCTATCAACCGCCACTCTATC  120
+0        439153621  ............................................................  439153680
+
+Query_3  121        CTTATTACAACAATCTGTACAATTATAATCCCTACCAAATGACTGTGACTGCTGATTCCA  180
+0        439153681  ............................................................  439153740
+
+Query_3  181        CAAGTGCTGGTGATTTGGGTGTCATAGGTGGAGCACCAATAAAAAATGCTTTTAGAAGCA  240
+0        439153741  ............................................................  439153800
+
+Query_3  241        TTCCTACTGCTTATGTCCAGGCTCAATCAGGAAATCAATGGCAG  284
+0        439153801  ............................................  439153844
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1501057271196
+
+
+Query= exon4
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM064359.1 Ranitomeya imitator isolate aRanImi1 chromosome 1, who...  300     3e-79
+
+
+
+Query_4  1          ATGAAAAGCAATGATAACCGTATTCCAGGACACAACACTGGCTCCCAATACAGGATGCAC  60
+0        439243197  ............................................................  439243256
+
+Query_4  61         TCTTACTACCCACCCTTCATGGGGCAGACTATGGCCACAACTGCTTGTGTCCAACCCATC  120
+0        439243257  ............................................................  439243316
+
+Query_4  121        TTTAGTTTTGAGGAAAACCTATCCTTCCCTGAGGTGAAAGCAAATG  166
+0        439243317  ..............................................  439243362
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 804138049710
+
+
+Query= exon5
+
+Length=42
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM064359.1 Ranitomeya imitator isolate aRanImi1 chromosome 1, who...  77.0    5e-13
+
+
+
+Query_5  1          GAACTTTTCAAGGACCGAGAAACCAGATTGCTCAAGAAACAG  42
+0        439398932  ..........................................  439398973
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 83392164310
+
+
+Query= exon6
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM064359.1 Ranitomeya imitator isolate aRanImi1 chromosome 1, who...  280     2e-73
+
+
+
+Query_6  1          TGTTTTCTCCACCAAGCAGCCAAGACTCCGGACTGGTTTCCTTGTCCAGCAGCTCGTCGG  60
+0        439407440  ............................................................  439407499
+
+Query_6  61         TCGCCAGTGAGGGCACCAAAGGTGCAGCCGAGTGCGAAGCTCCCACTGAAGCCCCTCTAT  120
+0        439407500  ............................................................  439407559
+
+Query_6  121        ATCCAGTGGCAGCTATTACTGAAGATGGGGAGTGA  155
+0        439407560  ...................................  439407594
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 738615690104
+
+
+  Database: GCA_032444005.1_aRanImi1.pri_genomic.fna
+    Posted date:  Feb 15, 2024  5:44 PM
+  Number of letters in database: 5,956,630,009
+  Number of sequences in database:  1,673
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
