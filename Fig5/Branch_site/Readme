@@ -1,0 +1,3 @@
+# The script_branch_site1.sh pipeline was used to run parallel and species-specific branch-site tests to reduce computation time. 
+#The script_branch_site.sh pipeline was employed to execute codeml for the branch-site analyses.
+#All parameters specified in the control file for branch site test (demo.ctl).
