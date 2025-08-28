@@ -1,0 +1,7 @@
+# DMRT1 Gene Selection Inference
+
+# Performed sequence alignment of the DMRT1 gene across 54 species, including the complete duplicated copy of Dmw, and constructed a phylogenetic tree using the guidance.sh pipeline.
+
+# Two selection models branch test and branch-site model ran to detect signals of selection.
+
+# Additionally, the free-ratio model to estimate independent ω (dN/dS) values for each branch in the phylogeny.
