@@ -1,12 +1,49 @@
-#!/bin/bash
-#SBATCH --job-name=paml
-#SBATCH --time=10:00:00
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=4
-#SBATCH --output=slurm_ind.%out
-#SBATCH --output=slurm_ind.%err
+#make labels as forground
 
-module load R-bundle-Bioconductor/3.15-foss-2022a-R-4.2.1
-module load PAML/4.9j-GCCcore-11.3.0
+tree=`ls MSA.PRANK.aln.With_Names.raxml.bestTree`
+for i in `grep ">" MSA.PRANK.aln.With_Names |sed 's/>//g'`
+do
+sed "s/$i/$i #1/g" "$tree" > "$i".nwk
+done
 
-codeml demo.ctl
+#make the list of species
+grep ">" MSA.PRANK.aln.With_Names |sed 's/>//g' >listb
+
+#make folder
+for i in `cat listb`
+do
+mkdir $i
+done
+
+#move all file in each folder
+for i in `cat listb`
+do
+mv "$i".nwk  $i/
+done
+
+
+#copy control file and modified the input name
+for i in `cat listb`
+do 
+cp demo.ctl $i/
+cd $i
+sed -i "s/aaaaaa/$i/g" demo.ctl
+cd -
+done
+
+#copy the alignment file and script
+for i in `cat listb`
+do
+cp script_brach_site.sh  MSA.PRANK.aln.With_Names  $i/
+done
+
+
+
+#run the script
+for i in `cat listb`
+do 
+cd $i
+sbatch script_brach_site.sh
+cd -
+done
+
