@@ -11,5 +11,6 @@
 #Assigned a unique color to each chromosome.
 #Performed synteny plot
 
-#  Synteny of chromosome 7 as the sex chromosome in Xenopus tropicalis and other 11 species 
+#  Synteny of chromosome 7, as the sex chromosome in Xenopus tropicalis and other 11 species.
+#For genome-wide synteny construction and visualization, a similar procedure was employed.
 
