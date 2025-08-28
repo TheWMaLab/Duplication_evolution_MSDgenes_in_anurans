@@ -1,3 +1,3 @@
-#Expression Comparison Across 14 Species Using Two Methods#
+# Expression of different tissues between male and female for 14 species using two different Methods#
 Based on read counts from RNA-seq data of the same tissue in males and females, quantified using HTSeq-count.
 Based on FPKM values from RNA-seq data of the same tissue in males and females, quantified using Cufflinks.
