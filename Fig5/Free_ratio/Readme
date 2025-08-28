@@ -1,0 +1,2 @@
+#  Free-ratio test was used to estimate the dN/dS ratio for each branch independently. 
+#The analysis was conducted using the "Free_ratio_model.sh" pipeline, with all parameter settings specified in the codeml control file (demo.ctl).
